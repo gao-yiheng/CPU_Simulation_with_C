@@ -1,0 +1,440 @@
+1    // AC = 0
+0
+27   // Push
+1    // AC = 1
+1
+16   // Y = AC
+8    // AC = random[1, 100]
+27   // Push
+9    // put the value of AC
+1
+
+1    // AC = 50
+50
+14   // X = AC
+26   // X--
+28   // Pop
+13   // AC -= Y
+21   // Jump if AC == 0
+50   // Somewhere
+27   // Push
+15   // AC = X
+22   // Jump AC != 0
+13   // Jump to X--, SOMEWHERE
+28   // Pop
+14   // X = AC
+28   // POP
+11   // AC += Y
+27   // Push
+15   // AC = X
+27   // Push
+20   // Jump 
+10   // Somewhere
+
+.50
+1    // Print '\n'
+10
+9
+2
+28   // Pop
+21   // Jump if AC == 0
+100  // Origin size
+13   // AC -= Y
+21   // Jump if AC == 0
+400  // 1 time size
+
+1
+404
+9
+1
+50
+
+
+.100  // Draw origin picture
+1    // AC = 1
+1
+16   // Y = AC
+1    // AC = 2
+2
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+105
+1
+95   // _
+9
+2
+1
+10
+9
+2
+20    // jump to line 2
+150
+
+.150  // line 2
+1
+47
+9
+2
+1    // AC = 3
+3
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+156
+1
+92
+9
+2
+1
+10
+9
+2
+20    // Jump to line 3
+200
+
+.200  //line 3
+1    // AC = 5
+5
+27   // Push AC
+1    // Load -
+45
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+202
+1
+10
+9
+2
+20   // Jump to line 4
+250
+
+.250 // Line 4
+1
+124
+9
+2
+1    // AC = 3
+3
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+256
+1
+124
+9
+2
+1
+10
+9
+2
+20   // Jump to line 5
+300
+
+.300  // Line 5
+1
+45
+9
+2
+1
+79
+9
+2
+1
+45
+9
+2
+1
+79
+9
+2
+1
+45
+9
+2
+1
+10
+9
+2
+50
+
+
+.400  // enlarge picture
+1    // AC = 1
+1
+16   // Y = AC
+1    // AC = 4
+4
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+405
+1    // AC = 8
+8
+27   // Push AC
+1    // Load space
+95
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+416
+1
+10
+9
+2
+20    // jump to line 2
+450
+
+.450  // line 2
+1    // AC = 2
+2
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+452
+1
+47
+9
+2
+1    // AC = 10
+10
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+467
+1
+92
+9
+2
+1
+10
+9
+2
+20    // Jump to line 3
+500
+
+.500  // Line 3
+1    // AC = 1
+1
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+502
+1
+47
+9
+2
+1    // AC = 12
+12
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+517
+1
+92
+9
+2
+1
+10
+9
+2
+20    // Jump to line 4
+550
+
+.550  // Line 4
+1
+47
+9
+2
+1    // AC = 14
+14
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+556
+1
+92
+9
+2
+1
+10
+9
+2
+20    // Jump to line 5
+600
+
+.600  // line 5
+1    // AC = 16
+16
+27   // Push AC
+1    // Load -
+45
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+602
+1
+10
+9
+2
+20   // Jump to line 6
+650
+
+.650  // line 6
+1
+124
+9
+2
+1    // AC = 14
+14
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+656
+1
+124
+9
+2
+1
+10
+9
+2
+20    // Jump to line 7
+700
+
+.700  // line 7
+1
+124
+9
+2
+1    // AC = 14
+14
+27   // Push AC
+1    // Load space
+32
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+706
+1
+124
+9
+2
+1
+10
+9
+2
+20    // Jump to line 8
+750
+
+.750  // line 8
+1    // AC = 5
+5
+27   // Push AC
+1    // Load -
+45
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+752
+1    // Load O
+79
+9
+2
+1    // AC = 4
+4
+27   // Push AC
+1    // Load -
+45
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+767
+1
+79
+9
+2
+1    // AC = 5
+5
+27   // Push AC
+1    // Load -
+45
+9
+2
+28   // Pop
+13   // AC -= Y
+22   // Jump if AC != 0
+782
+1
+10
+9
+2
+50
+
+
+.1000
+30
+

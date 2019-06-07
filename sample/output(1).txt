@@ -1,0 +1,56 @@
+sample1.txt:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ12345678910
+
+sample2.txt:
+    ------
+ /         \
+/   -*  -*  \
+|           |
+\   \____/  /
+ \         /
+    ------
+
+sample3.txt: (Note: running with different timer values will vary the output)
+A
+0
+A
+0
+A
+2
+A
+4
+A
+5
+A
+7
+A
+9
+A
+10
+A
+12
+A
+14
+
+sample4.txt output depends on how you implement the stack:
+
+sample4.txt: (Note: this is using a decrement then write approach for the stack) 
+1000
+999
+1000
+1998
+1997
+1998
+Memory violation: accessing system address 1000 in user mode 
+
+
+sample4.txt: (Note: this is using a write then decrement approach for the stack) 
+999
+998
+999
+1997
+1996
+1997
+Memory violation: accessing system address 1000 in user mode 
+
+
